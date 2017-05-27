@@ -1,6 +1,6 @@
 
 
-$("#teclado").click(function() {
+$("#teclado").on("mouseleave", function() {
 
 
   $("#display").delay(4000).fadeOut(1000);
@@ -8,7 +8,7 @@ $("#teclado").click(function() {
 
 });
 
-$(".numeros").on("mousemove", function() {
+$(".numeros").on("mouseover", function() {
 
 
   $("#display").fadeIn();
