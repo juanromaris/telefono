@@ -1,8 +1,15 @@
-var containerNumeros = $("#display");
-var numerosAgregados;
 
-numerosAgregados = document.createElement("h1");
-containerNumeros.append(numerosAgregados);
+
+$("#display").click(function() {
+
+
+  $(this).fadeOut(500);
+
+
+});
+
+
+
 
 
 $("#uno").on("click", function() {
