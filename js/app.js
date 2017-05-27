@@ -1,9 +1,17 @@
 
 
-$("#display").click(function() {
+$("#teclado").click(function() {
 
 
-  $(this).fadeOut(500);
+  $("#display").fadeOut(5000);
+
+
+});
+
+$(".numeros").click(function() {
+
+
+  $("#display").fadeIn();
 
 
 });
