@@ -1,20 +1,17 @@
 
 
-$("#teclado").click(function() {
+if ($("#teclado").click()) {
+
+  $("#display").delay(3000);
+ }
+
+else {
+
+  $("#display").fadeOut(3000);
+
+  }
 
 
-  $("#display").delay(4000).fadeOut(1000);
-
-
-});
-
-$(".numeros").on("mousemove", function() {
-
-
-  $("#display").fadeIn();
-
-
-});
 
 
 
@@ -24,7 +21,7 @@ $("#uno").on("click", function() {
     console.log("apretaste 1");
 
     
-    $("#display").append("<strong>1</strong>");
+    $( "#display" ).append( "<strong>1</strong>" );
 
     // var numero1 = $("#uno").html();
     // var contenedorDisplay = $("#display");
